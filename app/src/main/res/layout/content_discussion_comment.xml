@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kenplayschool.DiscussionDetailActivity"
+    tools:showIn="@layout/activity_post_discussion_comment">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="dfn kfngkf mdfnkgkfdg kfdgk"
+        android:textColor="#444444"
+        android:textSize="@dimen/text_head"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Enter your comment"
+        android:textColor="#9E9E9E"
+        android:textSize="@dimen/text_small" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/cmntEdtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/text_box"
+        android:gravity="top"
+        android:padding="3dp"
+        android:textColor="#444444"
+        android:textSize="@dimen/text_head"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/postCmntBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Post Comment"
+        android:textAllCaps="false"
+        android:textColor="@color/color_white" />
+
+</LinearLayout>

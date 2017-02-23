@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kenplayschool.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="120dp"
+             android:background="@color/divider"
+             android:orientation="horizontal">
+
+          <LinearLayout
+              android:id="@+id/attandance_layout"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:background="@color/color_white"
+              android:gravity="center"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/attendance_black"/>
+              <android.support.v7.widget.AppCompatTextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:fontFamily="san-serif"
+                  android:gravity="center"
+                  android:text="Attendance"
+                  android:textColor="@color/menu_activity_text_color"
+                  android:textSize="16sp" />
+          </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/bulletin_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/menu_activity_text_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bulletin"
+                android:foregroundGravity="center"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="san-serif"
+                android:gravity="center"
+                android:text="Bulletin"
+                android:textColor="@color/color_white"
+                android:textSize="16sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/divider"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/diary_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTiles"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/diary"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="san-serif"
+                        android:gravity="center"
+                        android:text="Dairy Activity"
+                        android:textColor="@color/color_white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/enquiry_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTiles"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/enquiry"/>
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="san-serif"
+                        android:gravity="center"
+                        android:text="Enquiry"
+                        android:textColor="@color/color_white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/event_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/events_black"/>
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="san-serif"
+                        android:gravity="center"
+                        android:text="Event"
+                        android:textColor="@color/color_dark"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+         <!--<LinearLayout-->
+             <!--android:id="@+id/banner_layout"-->
+             <!--android:layout_width="fill_parent"-->
+             <!--android:layout_height="240dp"-->
+             <!--android:background="#323232"-->
+             <!--android:gravity="center_vertical|right"-->
+             <!--android:orientation="horizontal"-->
+             <!--android:paddingRight="5dp">-->
+             <!--<ImageView-->
+
+                 <!--android:src="@drawable/portfolio_detail2"-->
+                 <!--android:layout_width="fill_parent"-->
+                 <!--android:layout_height="match_parent" />-->
+             <!--<android.support.v7.widget.AppCompatTextView-->
+                 <!--android:layout_width="wrap_content"-->
+                 <!--android:layout_height="wrap_content"-->
+                 <!--android:layout_marginTop="5dp"-->
+                 <!--android:fontFamily="san-serif"-->
+                 <!--android:text=" Babylonia Banner "-->
+                 <!--android:textColor="@color/color_white"-->
+                 <!--android:textSize="16sp" />-->
+         <!--</LinearLayout>-->
+         <LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/banner_layout"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/white"
+             android:gravity="center_vertical|right"
+             android:orientation="horizontal"
+             android:padding="5dp"
+             xmlns:custom="http://schemas.android.com/apk/res-auto"
+             >
+             <com.daimajia.slider.library.SliderLayout
+                 android:id="@+id/slider"
+                 android:layout_width="match_parent"
+                 custom:pager_animation="Accordion"
+                 custom:auto_cycle="true"
+                 custom:indicator_visibility="visible"
+                 custom:pager_animation_span="1100"
+                 android:layout_height="200dp"/>
+
+             <com.daimajia.slider.library.Indicators.PagerIndicator
+                 android:id="@+id/custom_indicator"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 custom:selected_color="@color/colorPrimary"
+                 custom:unselected_color="@color/white"
+                 custom:shape="oval"
+                 custom:selected_padding_left="5dp"
+                 custom:selected_padding_right="5dp"
+                 custom:unselected_padding_left="5dp"
+                 custom:unselected_padding_right="5dp"
+                 android:layout_centerHorizontal="true"
+                 android:layout_alignParentBottom="true"
+                 custom:selected_width="6dp"
+                 custom:selected_height="6dp"
+                 custom:unselected_width="6dp"
+                 custom:unselected_height="6dp"
+                 android:layout_marginBottom="20dp"
+                 />
+             <com.daimajia.slider.library.Indicators.PagerIndicator
+                 android:id="@+id/custom_indicator2"
+                 style="@style/AndroidImageSlider_Corner_Oval_Orange"
+                 android:layout_centerHorizontal="true"
+                 android:layout_alignParentBottom="true"
+                 android:layout_marginBottom="20dp"
+                 />
+         </LinearLayout>
+
+        <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="120dp"
+         android:background="@color/divider"
+         android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/fees_layout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0.5dp"
+                android:layout_weight="1"
+                android:background="@color/colorTiles"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fees"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="san-serif"
+                    android:gravity="center"
+                    android:text="Fees"
+                    android:textColor="@color/color_white"
+
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/holiday_layout"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_marginRight="0.5dp"
+             android:layout_weight="1"
+             android:background="@color/colorTiles"
+             android:gravity="center"
+             android:orientation="vertical">
+
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/holiday_list"/>
+             <android.support.v7.widget.AppCompatTextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:fontFamily="san-serif"
+                 android:gravity="center"
+                 android:text="Holiday "
+                 android:textColor="@color/color_white"
+                 android:textSize="16sp" />
+         </LinearLayout>
+
+         <LinearLayout
+             android:id="@+id/videocall_layout"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_marginLeft="0.5dp"
+             android:layout_weight="1"
+             android:background="@color/color_white"
+             android:gravity="center"
+             android:orientation="vertical">
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/videocall_black"/>
+             <android.support.v7.widget.AppCompatTextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:fontFamily="san-serif"
+                 android:gravity="center"
+                 android:text="Live Videos"
+                 android:textColor="@color/menu_activity_text_color"
+                 android:textSize="16sp" />
+         </LinearLayout>
+     </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="120dp"
+             android:background="@color/divider"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:id="@+id/gallery_layout"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:background="@color/color_white"
+                 android:gravity="center"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/gallery_black"/>
+
+                 <android.support.v7.widget.AppCompatTextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="5dp"
+                     android:fontFamily="san-serif"
+                     android:gravity="center"
+                     android:text="Gallery"
+                     android:textColor="@color/menu_activity_text_color"
+                     android:textSize="16sp" />
+             </LinearLayout>
+
+
+             <RelativeLayout
+                 android:id="@+id/feedback_layout"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="2"
+                 android:background="@color/menu_activity_text_color">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:gravity="center"
+                     android:orientation="vertical"
+                     android:paddingLeft="10dp">
+
+                     <ImageView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:src="@drawable/feedback"/>
+                     <android.support.v7.widget.AppCompatTextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="5dp"
+                         android:fontFamily="san-serif"
+                         android:text="Feedback"
+                         android:gravity="center"
+                         android:textColor="@color/color_white"
+                         android:textSize="16sp" />
+                 </LinearLayout>
+
+             </RelativeLayout>
+         </LinearLayout>
+
+
+
+             <!--<LinearLayout-->
+                 <!--android:layout_width="match_parent"-->
+                 <!--android:layout_height="120dp"-->
+                 <!--android:background="@color/divider"-->
+                 <!--android:orientation="horizontal">-->
+
+                 <!--<LinearLayout-->
+                     <!--android:id="@+id/demoa_layout"-->
+                     <!--android:layout_width="0dp"-->
+                     <!--android:layout_height="match_parent"-->
+                     <!--android:layout_weight="1"-->
+                     <!--android:background="@color/colorTiles"-->
+                     <!--android:gravity="center"-->
+                     <!--android:orientation="vertical">-->
+                     <!--<ImageView-->
+                         <!--android:layout_width="wrap_content"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--android:src="@drawable/activities"/>-->
+                     <!--<android.support.v7.widget.AppCompatTextView-->
+                         <!--android:layout_width="match_parent"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--android:layout_marginTop="5dp"-->
+                         <!--android:fontFamily="san-serif"-->
+                         <!--android:gravity="center"-->
+                         <!--android:text="Demo A"-->
+                         <!--android:textColor="@color/color_white"-->
+                         <!--android:textSize="16sp" />-->
+                 <!--</LinearLayout>-->
+
+                 <!--<LinearLayout-->
+                     <!--android:id="@+id/demob_layout"-->
+                     <!--android:layout_width="0dp"-->
+                     <!--android:layout_height="match_parent"-->
+                     <!--android:layout_marginLeft="0.5dp"-->
+                     <!--android:layout_weight="1"-->
+                     <!--android:background="@color/colorTiles"-->
+                     <!--android:gravity="center"-->
+                     <!--android:orientation="vertical">-->
+                     <!--<ImageView-->
+                         <!--android:layout_width="wrap_content"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--android:src="@drawable/enquiry"/>-->
+                     <!--<android.support.v7.widget.AppCompatTextView-->
+                         <!--android:layout_width="match_parent"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--android:layout_marginTop="5dp"-->
+                         <!--android:fontFamily="san-serif"-->
+                         <!--android:gravity="center"-->
+                         <!--android:text="Demo B"-->
+                         <!--android:textColor="@color/color_white"-->
+                         <!--android:textSize="16sp" />-->
+                 <!--</LinearLayout>-->
+
+                 <!--<LinearLayout-->
+                     <!--android:id="@+id/democ_layout"-->
+                     <!--android:layout_width="0dp"-->
+                     <!--android:layout_height="match_parent"-->
+                     <!--android:layout_marginLeft="0.5dp"-->
+                     <!--android:layout_weight="1"-->
+                     <!--android:background="@color/color_white"-->
+                     <!--android:gravity="center"-->
+                     <!--android:orientation="vertical">-->
+                     <!--<ImageView-->
+                         <!--android:layout_width="wrap_content"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--android:src="@drawable/events_black"/>-->
+                     <!--<android.support.v7.widget.AppCompatTextView-->
+                         <!--android:layout_width="match_parent"-->
+                         <!--android:layout_height="wrap_content"-->
+                         <!--android:layout_marginTop="5dp"-->
+                         <!--android:fontFamily="san-serif"-->
+                         <!--android:gravity="center"-->
+                         <!--android:text="Demo C"-->
+                         <!--android:textColor="@color/menu_activity_text_color"-->
+                         <!--android:textSize="16sp" />-->
+                 <!--</LinearLayout>-->
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

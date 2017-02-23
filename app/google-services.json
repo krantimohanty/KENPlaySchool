@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "466610842678",
+    "firebase_url": "https://kenschool-140807.firebaseio.com",
+    "project_id": "kenschool-140807",
+    "storage_bucket": "kenschool-140807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466610842678:android:9d7d0d32c5017f25",
+        "android_client_info": {
+          "package_name": "com.kenplayschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466610842678-kheqbgsotlstbij58saimisg223qu8oo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "466610842678-90stadacvd1k15n88kdpk48nmvs3ui5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF7PTkhRUJf3W6alHrIS-U8nCWMMOxM5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

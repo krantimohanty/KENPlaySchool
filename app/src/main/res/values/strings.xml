@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Play School</string>
+    <string name="attendance_name">Attendance</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="login"><u>Login</u></string>
+    <!--Array-->
+    <string-array name="demo_state">
+        <item>Odisha</item>
+        <item>West Bengal</item>
+        <item>Bihar</item>
+        <item>Tamilnadu</item>
+        <item>Maharastra</item>
+    </string-array>
+    <string-array name="demo_dist">
+        <item>Khurda</item>
+        <item>Cuttack</item>
+        <item>Puri</item>
+        <item>Bolangir</item>
+        <item>Balasore</item>
+    </string-array>
+
+    <string name="btn_skip_intro">Skip Intro</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string-array name="language">
+        <item>English</item>
+        <item>Odia</item>
+    </string-array>
+
+    <!--Declaration text-->
+    <string name="declaration_text">I accept all the terms and conditions.</string>
+    <!--Tax statement-->
+    <string name="tax">...........</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_profile">Profile</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news_detail">Registration</string>
+    <string name="title_activity_sectorial_detail">Food Detail</string>
+    <string name="title_activity_social_updates">Social Updates</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_manifesto">About Us</string>
+    <string name="title_activity_events_detail">Event Detail</string>
+    <string name="title_activity_announcement">Announcement</string>
+    <string name="title_activity_enquiry_detail">Create Enquiry</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="title_activity_performance">Performance</string>
+    <!-- Facebook app id setting-->
+    <!--<string name="facebook_app_id">9402315327300</string>-->
+    <string name="facebook_app_id">213474328753219</string>
+    <string name="name_required">You must enter a name</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome !</string>
+    <string name="slide_1_desc">Let us reform our schools and We shall find little need of reform in our prisons. </string>
+
+    <string name="slide_2_title">Child</string>
+    <string name="slide_2_desc">A child looks up at the stars and wonders. Great fathers put a child on his shoulders and helps them to grab a star.</string>
+
+    <string name="slide_3_title">School</string>
+    <string name="slide_3_desc">The philosophy of the school room in one generation will be the philosophy of goverment in the next.</string>
+
+    <string name="slide_4_title">Music</string>
+    <string name="slide_4_desc">Music gives a soul to the universe. Wings to the mind, flight to the imagination and life to everything.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="name">Enter Name</string>
+    <string name="email_id">Enter Email ID</string>
+    <string name="subject_id">Enter Subject</string>
+    <string name="button_submit">Update</string>
+    <string name="facebook_login_button">Login with Facebook</string>
+    <string name="google_plus_login_button">Login with Google</string>
+    <string name="change_pass">Enter Name</string>
+    <string name="new_id">Enter Email ID</string>
+    <!--<string name="subject_id">Enter Subject</string>
+    <string name="button_submit">Update</string>-->
+
+    <string name="title_activity_achievement">Performance</string>
+    <string name="title_activity_admission">Admission</string>
+    <string name="title_activity_diary">Diary</string>
+    <string name="title_activity_donation">Fees</string>
+    <string name="title_activity_representative">Contact Us</string>
+    <string name="title_activity_blog">Members Activity</string>
+    <string name="title_activity_child_registration">Registration ChildActivity</string>
+    <string name="title_activity_discussion">Enquiry</string>
+    <string name="title_activity_discussion_detail">Discussion Detail</string>
+
+    <!--Demo text-->
+    <string name="list_row_head">#Heading -- Shukra </string>
+    <string name="list_row_no">#ID Number </string>
+    <string name="list_row_date">#4th Jan, 2017</string>
+    <string name="list_row_subtitle">#Text messages here</string>
+    <string name="list_row_views">#60 views</string>
+    <string name="list_row_likes">#60 likes</string>
+    <string name="list_row_comments">#22 comments</string>
+    <string name="demo_thoughts">..............</string>
+    <string name="demo_manifesto">Minimum Guarentee in every locality: It is more than a promise, It is a Guarentee</string>
+    <string name="titlee_forgot">Enter your mobile number below and you will get the OTP.</string>
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="ministry"><b>Test n Try: </b></string>
+    <string name="constituency"><b>Constituency: </b></string>
+
+
+    <!-- <string name="forget_pass"><u>Forget Password?</u></string>
+     <string name="forget_pass"><u>Forgot Password?</u></string>-->
+
+    <string name="sign_up"><u>Create Profile !!</u></string>
+    <string name="title_activity_event">Event</string>
+    <string name="title_activity_holiday_list">holiday List</string>
+    <string name="title_activity_bulletin">Bulletin</string>
+    <string name="title_activity_event_detail">Event Details</string>
+    <string name="title_activity_bulletin_detail">Bulletin Details</string>
+    <string name="title_activity_todays">Activity</string>
+    <string name="title_activity_contact">Contact Us</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_ideas">Ideas</string>
+    <string name="title_activity_registration">Registration</string>
+    <!--Display Name Set-->
+
+    <string name="data_row_head">Data submitted successfully</string>
+    <string name="Thank_row_head">Thank you for submitting</string>
+    <string name="well_row_head">Well consider your message with high </string>
+    <string name="prior_row_head">priority</string>
+
+
+    <!--Setting Hind Name-->
+    <string name="push_row_head">Push Notification manamagenet </string>
+    <string name="language_row_head">Language </string>
+    <string name="change_row_head">Change Password </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Kranti</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_notification">Notifications</string>
+    <string name="title_activity_enquiry">Enquiry</string>
+
+    <!--Webview message-->
+    <string name="error_title">Unable to connect Internet</string>
+    <string name="error_description">Please make sure of network state and try again.</string>
+    <string name="reload_message">reload</string>
+    <string name="title_activity_know_your_representative">Know Your Representative</string>
+
+    <!--LoadingLIst-->
+    <string name="loading">Loading&#8230;</string>
+
+    <!--feedback hint name -->
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_emailid">Enter Email-id</string>
+    <string name="enter_mobile">Enter Mobile Number</string>
+    <string name="enter_desc">Enter description</string>
+    <string name="title_activity_voter_id">Voter Id Problem</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+
+    <!--Attendance-->
+    <string name="action_add_favourite">Present</string>
+    <string name="action_play_next">Absent</string>
+    <string name="attendance_title">Attendance</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+
+    <!--Contact Page-->
+    <string name="contact_email_id">Email<a href="mailto:info@swashconvergence.com" target="_top">.</a></string>
+    <string name="myemail">info@swashconvergence.com</string>
+    <string name="call_us">Call us: <a href="(+91) 7077713232,(+91) 7077713233">(+91) 7077713232, 7077713233</a></string>
+    <string name="email_us">Email us: <a href="info@swashconvergence.com">info@swashconvergence.com</a></string>
+
+
+    <string name="list_view_reorder_empty">No tasks</string>
+    <string name="list_view_reorder_header">Play School</string>
+    <string name="list_view_reorder_btn_list1">Facilities</string>
+    <string name="list_view_reorder_btn_list2">Specialties</string>
+    <string name="list_view_reorder_complete">complete</string>
+    <string name="list_view_reorder_delete">delete</string>
+    <string name="list_view_selection_header">Reading list</string>
+    <string name="list_view_selection_header_in_reorder">Reorder</string>
+    <string name="list_view_selection_reorder">reorder</string>
+    <string name="list_view_selection_deleted">Deleted.</string>
+    <string name="list_view_selection_fav">fav</string>
+    <string name="list_view_selection_delete">del</string>
+    <string name="list_view_selection_undo">UNDO</string>
+    <string name="list_view_selection_btn_list1">ALL</string>
+    <string name="list_view_selection_btn_list2">FAVORITES</string>
+    <string name="list_view_deck_title">Gallery</string>
+    <string name="list_view_deck_image_desc">Snaps</string>
+    <string name="list_view_slide_image_desc">About Us</string>
+    <string name="list_view_slide_enquiry">Click here to know more</string>
+    <string name="list_view_slide_attractions">Attractions</string>
+    <string name="book_a_hotel_string">Book a hotel!</string>
+    <string name="all_day_string">ALL DAY</string>
+    <string name="internet_connectivity_prompt">Internet connectivity is required for this example.</string>
+</resources>

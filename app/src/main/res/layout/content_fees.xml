@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kenplayschool.FeesActivity">
+    <!--tools:showIn="@layout/activity_fees"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="san-serif"
+            android:text="For more information click here:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="5dp"
+            android:text="biju_janta_dal/donate"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:textSize="14sp"
+            android:textStyle="bold" />-->
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="san-serif"
+            android:hint="Enter Name"
+            android:singleLine="true"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:text="Gender"
+            android:textSize="@dimen/text_content"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:checked="true"
+                android:fontFamily="san-serif"
+                android:paddingRight="16dp"
+                android:text="Male"
+                android:textSize="@dimen/text_small" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:checked="false"
+                android:fontFamily="san-serif"
+                android:text="Female"
+                android:textSize="@dimen/text_small" />
+        </RadioGroup>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="san-serif"
+            android:hint="mm/dd/yyyy"
+            android:singleLine="true"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner_country"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:entries="@array/country_id"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/city_town"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="san-serif"
+            android:hint="City/Town"
+            android:singleLine="true"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="san-serif"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="@dimen/text_head" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:text="Address"
+            android:textSize="@dimen/text_content"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/home_address"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_box"
+            android:fontFamily="san-serif"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:text="Please note that"
+            android:textSize="@dimen/text_head"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:text="@string/tax"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="san-serif"
+            android:hint="Enter Amount*"
+            android:singleLine="true"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/pancard_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="16dp"
+            android:fontFamily="san-serif"
+            android:hint="Pan Card number"
+            android:singleLine="true"
+            android:textSize="@dimen/text_head" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="san-serif"
+            android:text="PAN number is mandatory"
+            android:textColor="@color/color_blue"
+            android:textSize="@dimen/text_content" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:text="Any message that you would like to pass:"
+            android:textSize="@dimen/text_head"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_box"
+            android:fontFamily="san-serif"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/text_small" />
+
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/declaration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="san-serif"
+            android:gravity="start"
+            android:text="@string/declaration_text"
+            android:textSize="@dimen/text_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:fontFamily="san-serif"
+                android:gravity="center"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_head" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="san-serif"
+                android:gravity="center"
+                android:text="(You will now be directed to the payment gateway page)"
+                android:textSize="@dimen/text_content" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="san-serif"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/color_blue"
+                android:textSize="@dimen/text_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

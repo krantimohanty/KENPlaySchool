@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/f1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+    <android.support.v7.widget.CardView
+    android:id="@+id/cart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+        android:layout_margin="0dp">
+
+    <ImageView
+        android:layout_marginTop="0dp"
+        android:id="@+id/image_title"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="0dp"
+        android:background="@color/grey"/>
+<!--
+     com.joanzapata.iconify.widget.IconButton
+         android:layout_marginTop="5dp"
+        android:id="@+id/btnYoutube_player"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+         android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="{ic-play}"
+        android:textColor="@color/color_white"
+        android:textSize="30sp" />-->
+    <!--    android:layout_alignParentL="true"-->
+
+        <LinearLayout
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:orientation="horizontal">
+
+        <!-- Name Title -->
+    <TextView
+        android:id="@+id/image_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="0dp"
+        android:visibility="visible"
+        android:text="Photo Name"
+        android:layout_toRightOf="@+id/image_title"
+        />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="289dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="115dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:paddingTop="5dp">
+<!-- Date -->
+<TextView
+    android:id="@+id/date_list"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/name"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="0dp"
+    android:visibility="visible"
+    android:text="date"
+    android:layout_toRightOf="@+id/image_name"
+    />
+    <!--Photo_count -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Photo"
+    android:id="@+id/page_count"
+    android:layout_below="@id/name"
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="45dp"
+  />
+    </LinearLayout>
+
+</FrameLayout>
+  <!--  android:layout_gravity="right|top"-->
+   <!-- android:layout_below="@id/name"-->

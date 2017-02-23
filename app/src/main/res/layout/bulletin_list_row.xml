@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="1dp"
+        app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/grey"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_marginTop="1dp"
+                    android:id="@+id/picture"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="125dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:visibility="visible"
+                    android:transitionName="bulletin_img" />
+            </RelativeLayout>
+        <!--android:background="@drawable/babylonialogo"-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                android:paddingLeft="140dp"
+                android:weightSum="1">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    >
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/row_head"
+                    android:layout_width="364dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="san-serif"
+                    android:text="@string/list_row_head"
+                    android:textColor="@color/common_plus_signin_btn_text_light"
+                    android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/bulletin_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="1dp"
+                    android:text=" Date: 4th Jan, 2016"
+                    android:textColor="@color/common_plus_signin_btn_text_light"
+                    android:textSize="@dimen/text_small"
+                    android:layout_alignParentRight="true" />
+
+                <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="9dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/bulletin_contents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="san-serif"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/common_plus_signin_btn_text_light"
+                    android:lines="2"
+                    android:text="Due to Summer Vacations Holiday the office will remain closed..........................................................."
+                    android:textSize="@dimen/text_head" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/bulletin_more"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="san-serif"
+                        android:layout_marginLeft="10dp"
+                        android:text="......"
+                        android:textColor="@color/color_dark"
+                        android:textSize="@dimen/text_small"/>
+ </LinearLayout>
+      </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

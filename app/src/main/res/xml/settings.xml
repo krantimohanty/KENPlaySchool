@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<Preference
+        android:key="change_password
+        android:title="Change Password"
+        android:widgetLayout="">
+        &lt;!&ndash;<intent android:action="your.package.path.to.Activity" />&ndash;&gt;
+    </Preference>-->
+    <Preference
+        android:key="change_password"
+        android:summary="Change your password"
+        android:title="Change Password">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.babyloniaapp.ChangePassActivity"
+            android:targetPackage="com.babyloniaapp" />
+    </Preference>
+    <Preference
+        android:key="language_preference"
+        android:summary="Change your app language"
+        android:title="Language" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="push_notification"
+        android:summary="Enable push notification"
+        android:title="Push notifcation management" />
+    <!-- <Preference
+         android:key="about_app"
+         android:summary="@string/app_version"
+         android:title="About App" />-->
+</PreferenceScreen>

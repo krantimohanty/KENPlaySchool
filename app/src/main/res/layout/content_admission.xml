@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kenplayschool.AdmissionActivity"
+    tools:showIn="@layout/activity_admission">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <!--<android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:text="Personal Details"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_head"
+                android:textStyle="bold" />-->
+
+            <!--<RadioGroup-->
+            <!--android:id="@+id/radioGrpUserType"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<android.support.v7.widget.AppCompatRadioButton-->
+            <!--android:id="@+id/radio_add_your_self"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:checked="true"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:paddingRight="16dp"-->
+            <!--android:text="Add Yourself"-->
+            <!--android:textSize="@dimen/text_head" />-->
+
+            <!--<android.support.v7.widget.AppCompatRadioButton-->
+            <!--android:id="@+id/radio_add_other"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:checked="false"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:text="Add Other"-->
+            <!--android:textSize="@dimen/text_head" />-->
+            <!--</RadioGroup>-->
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/Eno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Enrollment No."
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/Rgdno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Registration No."
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Child Name"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/fathername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Father Name"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/mothername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Mother Name"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/nationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Nationality"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/passportNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="san-serif"
+                android:hint="Religion"
+                android:singleLine="true"
+                android:textSize="@dimen/text_head" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/childlikes"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:background="@drawable/text_box"
+                android:fontFamily="san-serif"
+                android:hint="What does your child like"
+                android:gravity="start"
+                android:textSize="@dimen/text_head" />
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/childfears"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:background="@drawable/text_box"
+                android:fontFamily="san-serif"
+                android:hint="What does your child fear"
+                android:gravity="start"
+                android:textSize="@dimen/text_head" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/declaration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:drawablePadding="10dp"
+                android:fontFamily="san-serif"
+                android:text="@string/declaration_text"
+                android:textSize="@dimen/text_small" />
+
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:text="Gender"-->
+                <!--android:textSize="@dimen/text_head"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<RadioGroup-->
+                <!--android:id="@+id/gender_radio_group"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<android.support.v7.widget.AppCompatRadioButton-->
+                    <!--android:id="@+id/radio_male"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="left"-->
+                    <!--android:checked="true"-->
+                    <!--android:fontFamily="san-serif"-->
+                    <!--android:paddingRight="16dp"-->
+                    <!--android:text="Male"-->
+                    <!--android:textSize="@dimen/text_content" />-->
+
+                <!--<android.support.v7.widget.AppCompatRadioButton-->
+                    <!--android:id="@+id/radio_female"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="left"-->
+                    <!--android:checked="false"-->
+                    <!--android:fontFamily="san-serif"-->
+                    <!--android:text="Female"-->
+                    <!--android:textSize="@dimen/text_content" />-->
+            <!--</RadioGroup>-->
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:text="Date of Birth"-->
+                <!--/>-->
+            <!--<android.support.v7.widget.AppCompatEditText-->
+                <!--android:id="@+id/dob"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:drawablePadding="16dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:hint="dd/mm/yyyy"-->
+                <!--android:inputType="date"-->
+                <!--android:singleLine="true"-->
+                <!--android:textSize="@dimen/text_head" />-->
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:hint="Class or Curriculam want to join"-->
+                <!--android:textSize="@dimen/text_head"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:id="@+id/playgroup"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:gravity="start"-->
+                <!--android:text="Play Group"-->
+                <!--android:textSize="@dimen/text_small" />-->
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:id="@+id/nursery"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:gravity="start"-->
+                <!--android:text="Nursery"-->
+                <!--android:textSize="@dimen/text_small" />-->
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+                <!--android:id="@+id/creche"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:gravity="start"-->
+                <!--android:text="Creche"-->
+                <!--android:textSize="@dimen/text_small" />-->
+            <!--<android.support.v7.widget.AppCompatEditText-->
+                <!--android:id="@+id/fname"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:drawablePadding="16dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:hint="Father's Name"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:singleLine="true"-->
+                <!--android:textSize="@dimen/text_head" />-->
+            <!--<android.support.v7.widget.AppCompatEditText-->
+                <!--android:id="@+id/mname"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:drawablePadding="16dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:hint="Mother's Name"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:singleLine="true"-->
+                <!--android:textSize="@dimen/text_head" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="san-serif"
+                android:text="Contact Details"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_head"
+                android:textStyle="bold" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:text="Are you a resident of Odisha"-->
+            <!--android:textSize="@dimen/text_head"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--<RadioGroup-->
+            <!--android:id="@+id/contact_check_group"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<android.support.v7.widget.AppCompatRadioButton-->
+            <!--android:id="@+id/yes"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:checked="true"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:paddingRight="16dp"-->
+            <!--android:text="Yes"-->
+            <!--android:textSize="@dimen/text_small" />-->
+
+            <!--<android.support.v7.widget.AppCompatRadioButton-->
+            <!--android:id="@+id/no"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="left"-->
+            <!--android:checked="false"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:text="No"-->
+            <!--android:textSize="@dimen/text_small" />-->
+            <!--</RadioGroup>-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:text="For Odisha Residents"-->
+            <!--android:textColor="@color/colorPrimary"-->
+            <!--android:textSize="@dimen/text_head"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--<android.support.v7.widget.AppCompatTextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:text="Address"-->
+                <!--android:textSize="@dimen/text_head"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<android.support.v7.widget.AppCompatEditText-->
+                <!--android:id="@+id/home_address"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/text_box"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:gravity="start"-->
+                <!--android:hint="Enter your address.."-->
+                <!--android:inputType="textMultiLine"-->
+                <!--android:padding="5dp"-->
+                <!--android:scrollbars="vertical"-->
+                <!--android:textSize="@dimen/text_head" />-->
+
+            <!--<android.support.v7.widget.AppCompatSpinner-->
+                <!--android:id="@+id/spinner_district"-->
+                <!--style="@style/Widget.AppCompat.Spinner.Underlined"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:entries="@array/demo_array"-->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:paddingTop="10dp" />-->
+
+            <!--<android.support.v7.widget.AppCompatSpinner-->
+                <!--android:id="@+id/spinner_block"-->
+                <!--style="@style/Widget.AppCompat.Spinner.Underlined"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="16dp"-->
+                <!--android:entries="@array/demo_array"-->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:paddingTop="10dp" />-->
+
+            <!--<android.support.v7.widget.AppCompatSpinner-->
+            <!--android:id="@+id/spinner_panchayat"-->
+            <!--style="@style/Widget.AppCompat.Spinner.Underlined"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:entries="@array/demo_array"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingTop="10dp" />-->
+
+            <!--<android.support.v7.widget.AppCompatSpinner-->
+            <!--android:id="@+id/spinner_village"-->
+            <!--style="@style/Widget.AppCompat.Spinner.Underlined"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:entries="@array/demo_array"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingTop="10dp" />-->
+
+            <!--<android.support.v7.widget.AppCompatEditText-->
+                <!--android:id="@+id/pincode"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:drawablePadding="16dp"-->
+                <!--android:fontFamily="san-serif"-->
+                <!--android:hint="Pincode"-->
+                <!--android:inputType="number"-->
+                <!--android:singleLine="true"-->
+                <!--android:textSize="@dimen/text_head" />-->
+
+            <!--<android.support.v7.widget.AppCompatEditText-->
+            <!--android:id="@+id/pancard_number"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:drawablePadding="16dp"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:hint="Pan Card number"-->
+            <!--android:inputType="text"-->
+            <!--android:singleLine="true"-->
+            <!--android:textSize="@dimen/text_head" />-->
+
+            <!--<android.support.v7.widget.AppCompatEditText-->
+            <!--android:id="@+id/qualification"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:drawablePadding="16dp"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:hint="Highest Qualification"-->
+            <!--android:inputType="text"-->
+            <!--android:singleLine="true"-->
+            <!--android:textSize="@dimen/text_head" />-->
+
+            <!--<android.support.v7.widget.AppCompatCheckBox-->
+            <!--android:id="@+id/declaration"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:fontFamily="san-serif"-->
+            <!--android:gravity="start"-->
+            <!--android:text="@string/declaration_text"-->
+            <!--android:textSize="@dimen/text_small" />-->
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="san-serif"
+                android:gravity="center"
+                android:text="Submit"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

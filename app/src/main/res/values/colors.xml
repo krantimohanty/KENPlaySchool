@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Babylonia -->
+    <!--<color name="colorTiles">#FFAF0A</color>-->
+    <!--<color name="colorPrimary">#ff9800</color>-->
+    <!--<color name="colorPrimaryDark">#ff9800</color>-->
+    <!--<color name="colorAccent">#ff9800</color>-->
+    <!--<color name="bg_button_login">#ff9800</color>-->
+
+    <color name="colorTiles">#46C7C7</color>
+    <color name="colorPrimary">#FF00BBBC</color>
+    <color name="colorPrimaryDark">#FF00BBBC</color>
+    <color name="colorAccent">#FF00BBBC</color>
+    <color name="bg_button_login">#FF00BBBC</color>
+
+
+    <color name="light_green">#7CB342</color>
+    <color name="white">#ffffff</color>
+    <color name="color_white">#ffffff</color>
+    <color name="light_grey">#eeeeee</color>
+    <color name="grey">#cdcdcd</color>
+    <color name="color_dark">#212121</color>
+    <color name="dark_grey">#616161</color>
+    <color name="color_blue">#2196F3</color>
+    <color name="blue">#0d70e0</color>
+    <color name="cyan">#1dbfb2</color>
+    <color name="red">#D50000</color>
+    <color name="search_layover_bg">#80000000</color>
+    <color name="dark">#424242</color>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <color name="menu_activity_text_color">#323232</color>
+    <color name="divider">#ffffff</color>
+    <color name="bg_screen1">#3395ff</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#f64c73</color>
+    <color name="bg_screen4">#c873f4</color>
+
+
+    <!-- Telerik -->
+    <color name="list_view_example_reorder_bgcolor">#FFEEEEEE</color>
+    <color name="list_view_example_reorder_todo_background">#FF88D4C4</color>
+    <color name="list_view_example_reorder_todo_active_background">#FF00CCA1</color>
+    <color name="list_view_example_reorder_shopping_background">#FFF3C7B9</color>
+    <color name="list_view_example_reorder_shopping_active_background">#FFFF6E40</color>
+    <color name="list_view_example_reorder_complete_background">#FFFFA200</color>
+    <color name="list_view_example_reorder_delete_background">#FFE5503A</color>
+
+    <color name="list_view_example_selection_bgcolor">#FFE4D8D4</color>
+    <color name="list_view_example_selection_menu_foreground">#FFDAD3D0</color>
+    <color name="list_view_example_selection_action_mode_background">#FF5D4037</color>
+    <color name="list_view_example_selection_line_separator_color">#FFD2C7C3</color>
+    <color name="list_view_example_selection_behind_delete">#FFFF1744</color>
+    <color name="list_view_example_selection_behind_fav">#FF00BBBC</color>
+    <color name="list_view_example_selection_selected_title">#FF262120</color>
+    <color name="list_view_example_selection_selected_content">#C7262120</color>
+    <color name="list_view_example_selection_item_title">#FF262120</color>
+    <color name="list_view_example_selection_item_content">#8A262120</color>
+    <color name="list_view_example_selection_item_pressed_state">#16000000</color>
+    <color name="list_view_example_selection_item_normal_state">#E4D8D4</color>
+    <color name="list_view_example_selection_item_selected_state">#C2B0A9</color>
+    <color name="calendar_range_price_color">#511749</color>
+    <color name="calendar_event_text_color">#737373</color>
+    <color name="calendar_background_range_example">#F2F2F2</color>
+    <color name="calendar_example_background">#FFDDDDDD</color>
+    <color name="list_item_text_color">#FF454545</color>
+    <color name="list_view_example_deck_title_background">#FF00BBBC</color>
+    <!--<color name="list_view_example_deck_title_background">#BD7937</color>-->
+    <color name="list_view_example_deck_recipe_title_background">#FF00BBBC</color>
+    <color name="listItemBottomBorder">#FFBCBCBC</color>
+    <color name="reservations_example_header">#B1AFAE</color>
+    <color name="exampleGroupDescriptionColor">#FF454545</color>
+    <color name="transparentBlack">#66000000</color>
+    <color name="transparentWhite">#FFFFFFFF</color>
+    <color name="listViewToolbarColor">#FF6E40</color>
+    <color name="listViewHorizontalLayoutHeaderColor">#E64A19</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#2278d4</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#d1395c</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#93c6fd</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#f98da5</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+</resources>

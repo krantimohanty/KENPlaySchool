@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="san-serif"
+            android:padding="8dp"
+            android:text="@string/list_row_head"
+            android:textSize="@dimen/text_large_head"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp">
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/source_enquiry1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="san-serif"
+        android:text="Queries"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_head"
+         />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/source_enquiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:padding="8dp"
+                android:layout_marginLeft="30dp"
+                android:text="Any Vacancies"
+                android:textSize="@dimen/text_head"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/enquiry_for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="san-serif"
+        android:padding="8dp"
+        android:text="Enquiry For"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_head"
+        />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/enquiryFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="san-serif"
+                android:padding="8dp"
+                android:text="Admission"
+                android:textSize="@dimen/text_head"
+                />
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="san-serif"
+            android:padding="8dp"
+            android:text="Area"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_head"
+            />
+        <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/enquiry_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="san-serif"
+        android:layout_marginLeft="50dp"
+        android:text="Janpath"
+        android:textSize="@dimen/text_head"
+   />
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/mob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="san-serif"
+            android:padding="8dp"
+            android:text="Mobile No"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_head"
+            />
+        <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/enquiry_phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="san-serif"
+        android:text="99378 85085"
+        android:drawablePadding="3dp"
+            android:layout_marginLeft="16dp"
+        android:textColor="@color/common_plus_signin_btn_text_light"
+        android:textSize="@dimen/text_head"
+       />
+        </LinearLayout>
+        </LinearLayout>
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:background="@color/colorPrimary" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="8dp"
+android:gravity="start"
+android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/com_facebook_profile_picture_blank_square"
+        app:border_color="#ffffff"
+        app:border_width="2dp" />
+
+<android.support.v7.widget.AppCompatEditText
+    android:id="@+id/edit_enquiry_comment"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/text_box"
+    android:gravity="start"
+    android:hint="Post your comment.."
+    android:inputType="textMultiLine"
+    android:lines="7"
+    android:maxEms="400"
+    android:maxLength="240"
+    android:padding="5dp"
+    android:scrollbars="vertical"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="10dp"
+android:layout_marginLeft="8dp"
+android:layout_marginRight="8dp"
+android:layout_marginTop="8dp"
+android:gravity="end">
+
+<android.support.v7.widget.AppCompatButton
+    android:id="@+id/btnPost"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="san-serif"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:text="Post"
+    android:textColor="@color/color_white" />
+</RelativeLayout>
+    </LinearLayout>

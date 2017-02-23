@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/notice_title"
+            android:background="@drawable/text_box"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:drawablePadding="16dp"
+            android:paddingLeft="16dp"
+            android:fontFamily="san-serif"
+            android:layout_marginTop="16dp"
+            android:hint="Notice Title"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textSize="@dimen/text_head" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/notice_comment"
+            android:background="@drawable/text_box"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawablePadding="16dp"
+            android:paddingLeft="16dp"
+            android:fontFamily="san-serif"
+            android:layout_marginTop="16dp"
+            android:hint="Notice Comment"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/text_head" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/start_date"
+            android:background="@drawable/text_box"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:drawablePadding="16dp"
+            android:paddingLeft="16dp"
+            android:fontFamily="san-serif"
+            android:layout_marginTop="16dp"
+            android:hint="Notice Start Date"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/text_head" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/end_date"
+            android:background="@drawable/text_box"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:drawablePadding="16dp"
+            android:paddingLeft="16dp"
+            android:fontFamily="san-serif"
+            android:layout_marginTop="16dp"
+            android:hint="Notice End Date"
+            android:inputType="date"
+            android:textSize="@dimen/text_head" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/add_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="san-serif"
+            android:gravity="center"
+            android:text="Add Notice"
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
